@@ -24,6 +24,14 @@ class PlaceholderWidget extends StatelessWidget {
               shape: BoxShape.circle,
             ),
           ),
+          new Container(
+              alignment: new FractionalOffset(0.6, 0.5),
+              child: new Text('25 €  ',
+                  style: new TextStyle(
+                    fontSize: 80.0,
+                    fontFamily: 'Roboto',
+                    color: new Color.fromRGBO(251, 255, 0, 1),
+                  ))),
         ],
       ),
     );
