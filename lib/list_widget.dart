@@ -59,7 +59,7 @@ class ShoppingItemState extends State<ShoppingItemList> {
         title: new Row(
       children: <Widget>[
         new Expanded(child: new Text(product.name)),
-        new Expanded(child: new Text(product.price)),
+        new Expanded(child: new Text('${product.price}')),
         new Checkbox(
             value: product.isCheck,
             onChanged: (bool value) {
@@ -75,6 +75,6 @@ class ShoppingItemState extends State<ShoppingItemList> {
 class Product {
   String name;
   bool isCheck;
-  String price;
+  int price;
   Product(this.name, this.isCheck, this.price);
 }

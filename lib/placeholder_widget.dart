@@ -16,7 +16,7 @@ class PlaceholderWidget extends StatelessWidget {
           new Container(
             alignment: new FractionalOffset(0.0, 0.0),
             decoration: new BoxDecoration(
-              color: Colors.blue,
+              color: new Color.fromRGBO(255, 161, 0, 1),
               border: new Border.all(
                 color: Colors.blue.withOpacity(0.5),
                 width: 5.0,
